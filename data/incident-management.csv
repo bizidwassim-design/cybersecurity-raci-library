@@ -1,0 +1,15 @@
+activity,reference,Top management,CISO,IT operations,Security operations,Application owners,HR,Legal & compliance,Procurement,Internal audit,Data & AI teams
+Define the incident response plan severity levels and escalation paths,ISO 27001 A.5.24; NIST CSF RS.MA-01,C,A,C,R,C,C,C,I,I,C
+Approve the incident response plan and the budget for tooling and retainers,ISO 27001 A.5.24; NIST CSF GV.RR-03,A,R,C,C,,,C,C,I,
+Report suspected security events (all staff and suppliers),ISO 27001 A.6.8; NIST CSF DE.AE-02,I,A,R,R,R,R,I,R,I,R
+Triage and classify events; declare an incident and its severity,ISO 27001 A.5.25; NIST CSF DE.AE-08 RS.MA-03,,A,C,R,C,,I,,,C
+Contain and eradicate: isolate hosts revoke credentials block indicators,ISO 27001 A.5.26; NIST CSF RS.MI-01 RS.MI-02,,A,R,R,C,,,,,C
+Collect and preserve evidence with chain of custody,ISO 27001 A.5.28; NIST CSF RS.AN-06,,A,C,R,,I,C,,I,
+Assess legal regulatory and contractual notification duties,ISO 27001 A.5.31 A.5.34; NIST CSF RS.CO-02,I,R,,,,,A,C,,C
+Notify regulators customers partners and insurers within deadlines,ISO 27001 A.5.5 A.5.6; NIST CSF RS.CO-02 RS.CO-03,A,R,,,I,I,R,C,,
+Communicate internally and brief top management during a major incident,ISO 27001 A.5.24; NIST CSF RS.CO-03,I,A,I,R,,C,C,,,
+Handle incidents involving staff misconduct together with HR,ISO 27001 A.6.4; NIST CSF RS.MA-02,,C,I,R,,A,C,,I,
+Recover services and confirm return to normal operation,ISO 27001 A.5.26; NIST CSF RC.RP-01,I,C,A,R,R,,,,,R
+Hold a post-incident review and track lessons learned into controls,ISO 27001 A.5.27; NIST CSF ID.IM-03,I,A,C,R,C,I,I,,C,C
+Run tabletop exercises at least yearly with business participation,ISO 27001 A.5.24 A.5.30; NIST CSF ID.IM-02,C,A,R,R,C,C,C,I,I,C
+Handle AI-specific incidents: model misuse harmful output data leakage via prompts,ISO 42001 A.6.2.6 A.8.4; NIST CSF RS.MA-02,I,A,,R,C,,C,,,R

@@ -1,0 +1,43 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  build-and-verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Validate the matrices without openpyxl (one A, at least one R, known roles)
+        run: python scripts/build_library.py --check
+      - run: pip install openpyxl
+      - name: Rebuild docs/ and RACI-Library.xlsx from data/
+        run: python scripts/build_library.py
+      - name: Generated Markdown must match the committed files
+        run: git diff --exit-code -- docs/
+      - name: Workbook opens, has 14 sheets, dropdowns and no macros
+        run: |
+          python - <<'EOF'
+          from openpyxl import load_workbook
+          wb = load_workbook("RACI-Library.xlsx")
+          assert len(wb.sheetnames) == 14, wb.sheetnames
+          assert wb.sheetnames[0] == "Index" and wb.sheetnames[-1] == "Roles", wb.sheetnames
+          assert not getattr(wb, "vba_archive", None), "workbook must not contain macros"
+          total = 0
+          for name in wb.sheetnames[1:-1]:
+              ws = wb[name]
+              assert ws.data_validations.dataValidation, f"{name}: no R/A/C/I dropdown"
+              rows = [r for r in ws.iter_rows(min_row=5, max_col=1) if r[0].value]
+              assert rows, f"{name}: no activities"
+              total += len(rows)
+          assert total == 156, total
+          print("OK:", len(wb.sheetnames), "sheets,", total, "activities, no macros")
+          EOF

@@ -1,0 +1,13 @@
+slug,title,summary
+vulnerability-management,Vulnerability management,"Finding, rating, fixing and verifying technical vulnerabilities on infrastructure, applications and AI pipelines, with SLAs and an exception path."
+incident-management,Incident management,"From the first report to the post-incident review: triage, containment, evidence, notifications, recovery and exercises, including AI-specific incidents."
+access-review,Access review,"Periodic certification of user, privileged, third-party and AI-system access against job role, with revocation and evidence."
+change-management,Change management,"Raising, assessing, approving, testing, implementing and reviewing changes to systems, security controls and AI models."
+backup-and-recovery,Backup and recovery,"Backup policy, recovery objectives, protected copies, restore testing, disaster-recovery exercises and retention."
+third-party-risk,Third-party risk,"Tiering, assessing, contracting, onboarding, monitoring and offboarding suppliers, including AI providers."
+security-awareness,Security awareness,"Onboarding and refresher training, phishing simulations, role-based and AI-use training, management briefings and measurement."
+logging-and-monitoring,Logging and monitoring,"Logging standard, log sources, central platform, SIEM operation, alert triage, retention, privacy and AI event logging."
+asset-management,Asset management,"Inventories of hardware, software, SaaS, information and AI assets; ownership, classification, acceptable use, discovery and disposal."
+policy-lifecycle,Policy lifecycle,"Framework, requirements mapping, drafting, review, approval, publication, acknowledgement, exceptions and periodic review of policies."
+ai-system-lifecycle,AI system lifecycle (ISO 42001),"Objectives, registration, impact assessment, data governance, development, validation, deployment, monitoring, incidents and retirement of AI systems."
+cloud-security-posture,Cloud security posture,"Cloud standards, service approval, account inventory, landing-zone hardening, guardrails, posture scanning, remediation, identities, exposure and exit planning."

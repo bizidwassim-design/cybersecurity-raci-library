@@ -1,0 +1,14 @@
+activity,reference,Top management,CISO,IT operations,Security operations,Application owners,HR,Legal & compliance,Procurement,Internal audit,Data & AI teams
+Define the asset management policy: asset types ownership classification scheme,ISO 27001 A.5.9 A.5.12; NIST CSF GV.PO-01,I,A,R,,C,,C,,I,C
+Maintain the inventory of hardware and virtual infrastructure,ISO 27001 A.5.9; NIST CSF ID.AM-01,,I,A,R,C,,,C,,
+Maintain the inventory of software SaaS and cloud subscriptions,ISO 27001 A.5.9; NIST CSF ID.AM-02,,I,A,C,R,,,R,,C
+Maintain the inventory of information assets and data flows,ISO 27001 A.5.9 A.5.12; NIST CSF ID.AM-03 ID.AM-07,,A,C,,R,,C,,,R
+Assign an owner to every asset and review ownership yearly,ISO 27001 A.5.9; NIST CSF ID.AM-05,,A,R,,R,C,,,,R
+Classify information and label it according to the scheme,ISO 27001 A.5.12 A.5.13; NIST CSF ID.AM-05,,A,I,,R,C,C,,,R
+Define and enforce acceptable use of assets,ISO 27001 A.5.10; NIST CSF GV.PO-01,,A,C,I,,R,C,,,
+Issue track and recover devices at joiner mover and leaver events,ISO 27001 A.5.11; NIST CSF ID.AM-01 PR.AA-01,,I,A,I,,R,,C,,
+Run discovery to find unmanaged and shadow assets,ISO 27001 A.5.9; NIST CSF ID.AM-01 DE.CM-01,,A,C,R,I,,,,,I
+Dispose of or reuse assets with secure wiping and records,ISO 27001 A.7.10 A.7.14; NIST CSF ID.AM-08,,C,A,I,,,I,R,,
+Inventory AI systems models and training datasets with purpose and owner,ISO 42001 A.4.2 A.4.3; NIST CSF ID.AM-02,,A,C,,R,,C,,,R
+Reconcile inventories against procurement and licence records yearly,ISO 27001 A.5.9 A.5.32; NIST CSF ID.AM-02,,I,A,,C,,,R,C,
+Report inventory completeness and unowned assets to management,ISO 27001 A.9.1; NIST CSF GV.OV-01,I,A,R,C,,,,,C,

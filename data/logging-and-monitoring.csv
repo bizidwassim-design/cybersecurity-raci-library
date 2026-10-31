@@ -1,0 +1,14 @@
+activity,reference,Top management,CISO,IT operations,Security operations,Application owners,HR,Legal & compliance,Procurement,Internal audit,Data & AI teams
+Define the logging standard: event types retention time synchronisation protection,ISO 27001 A.8.15 A.8.17; NIST CSF PR.PS-04,I,A,C,R,C,,C,,,C
+Maintain the list of log sources and their onboarding status,ISO 27001 A.5.9 A.8.15; NIST CSF DE.CM-01,,A,C,R,C,,,,,C
+Configure systems and applications to generate the required events,ISO 27001 A.8.15; NIST CSF PR.PS-04,,A,R,C,R,,,,,R
+Forward logs to the central platform and protect them from tampering,ISO 27001 A.8.15; NIST CSF PR.PS-04 PR.DS-01,,A,R,R,C,,,,,C
+Operate the SIEM: detection rules tuning and health of ingestion,ISO 27001 A.8.16; NIST CSF DE.AE-02 DE.CM-01,,A,C,R,I,,,,,
+Monitor alerts on the agreed coverage model and triage them,ISO 27001 A.8.16; NIST CSF DE.AE-02 DE.CM-01,,A,C,R,I,,,I,,
+Escalate confirmed events to incident management,ISO 27001 A.5.25 A.8.16; NIST CSF DE.AE-08,,A,I,R,I,,,,,
+Review privileged activity and access logs on a schedule,ISO 27001 A.8.2 A.8.15; NIST CSF DE.CM-03,,A,C,R,C,,,,I,C
+Define and enforce log retention and manage legal holds,ISO 27001 A.5.33 A.8.15; NIST CSF PR.PS-04,,C,R,R,,I,A,,,C
+Control access to logs that contain personal data,ISO 27001 A.5.34 A.8.15; NIST CSF PR.AA-05,,A,C,R,,I,C,,,C
+Log and monitor AI system events: prompts outputs model versions drift,ISO 42001 A.6.2.6 A.6.2.8; NIST CSF DE.CM-01,,A,,R,C,,I,,,R
+Measure detection coverage and mean time to detect; report to management,ISO 27001 A.9.1; NIST CSF GV.OV-01 DE.AE-04,I,A,I,R,,,,,C,
+Review the monitoring process independently,ISO 27001 A.5.35; NIST CSF GV.OV-03,A,C,I,C,,,,,R,

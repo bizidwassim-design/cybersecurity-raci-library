@@ -1,0 +1,14 @@
+activity,reference,Top management,CISO,IT operations,Security operations,Application owners,HR,Legal & compliance,Procurement,Internal audit,Data & AI teams
+Define cloud security standards and the shared-responsibility model per provider,ISO 27001 A.5.23; NIST CSF GV.SC-01 PR.PS-01,I,A,R,R,C,,C,C,,C
+Approve the use of a new cloud service or region,ISO 27001 A.5.19 A.5.23; NIST CSF GV.SC-06,,A,R,,R,,C,C,,C
+Maintain the inventory of cloud accounts subscriptions and owners,ISO 27001 A.5.9 A.5.23; NIST CSF ID.AM-02,,I,A,C,R,,,C,,R
+Harden landing zones: identity network logging encryption baselines,ISO 27001 A.8.9 A.8.20 A.8.24; NIST CSF PR.PS-01,,A,R,C,I,,,,,C
+Enforce guardrails as code: policies organisation-level controls deny rules,ISO 27001 A.8.9; NIST CSF PR.PS-01,,A,R,R,I,,,,,I
+Run continuous posture scanning and classify misconfigurations,ISO 27001 A.8.8 A.8.9; NIST CSF DE.CM-09 ID.RA-01,,A,C,R,I,,,,,I
+Remediate misconfigurations within SLA by severity,ISO 27001 A.8.9; NIST CSF PR.PS-01,,A,R,C,R,,,,,R
+Manage privileged cloud identities keys and secrets,ISO 27001 A.5.17 A.8.2 A.8.24; NIST CSF PR.AA-01 PR.AA-05,,A,R,C,C,,,,,R
+Review publicly exposed resources and storage weekly,ISO 27001 A.8.9 A.8.20; NIST CSF DE.CM-01,,A,C,R,C,,,,,C
+Monitor cloud spend anomalies as a security signal,ISO 27001 A.8.16; NIST CSF DE.CM-01,,I,A,R,I,,,C,,
+Review provider security attestations and sub-processor changes yearly,ISO 27001 A.5.22 A.5.23; NIST CSF GV.SC-07,,A,C,C,,,C,R,,
+Plan exit and data portability for each critical cloud service,ISO 27001 A.5.23 A.5.30; NIST CSF GV.SC-10,,C,R,,A,,C,R,,C
+Report cloud posture score open critical findings and exceptions,ISO 27001 A.9.1; NIST CSF GV.OV-01,I,A,C,R,I,,,,C,
