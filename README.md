@@ -100,6 +100,13 @@ Run `python scripts/build_library.py` before opening a pull request and commit t
 A model of responsibilities, not a statement about any real organisation. Adapt the roles to your own
 structure and have the result approved by the people in the A column; a RACI nobody signed is a drawing.
 
+## AI assistance
+
+Built with Claude Code as a coding and writing assistant, which is why it appears as a co-author on some commits.
+**Editor and reviewer: Wassim Bizid**, who set the scope, the frameworks and the GRC approach, edited the content
+and decided what was published. Automated tests in CI check the published outputs. This is a maintainer review,
+not an independent one.
+
 ## License
 
 [MIT](LICENSE) — free to use, copy, modify and redistribute.
